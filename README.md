@@ -1,6 +1,7 @@
 <h2 align="center"> Navbar Experiment </h2>
 
 ![nav-exp](https://user-images.githubusercontent.com/91632194/232610862-e601f689-ad90-4699-a8b2-53fcc323c431.png)
+![nav-exp-gal](https://user-images.githubusercontent.com/91632194/232611335-8dca294d-0045-4fae-b63f-efabf511b690.png)
 
 ## Description
 An idea for a navbar on md & lg screens. Mobile (sm) nav looks like any other mobile nav. This also features a multi-page gallery you can scroll through. 
