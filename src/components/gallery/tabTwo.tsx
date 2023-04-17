@@ -11,7 +11,7 @@ const TabTwo = () => {
     <>
     <div className="max-w-5xl mx-auto px-4">
       <div className="flex flex-col justify-center items-center">
-        <div className="mt-16 mb-12 md:ml-44">
+        <div className="mt-16 md:ml-44">
           <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-4 gap-4">
             <div className="overflow-hidden col-span-2 row-span-2">
               <Image 
@@ -34,6 +34,15 @@ const TabTwo = () => {
             <div className="col-span-2 row-span-2">
               <Image 
                 src="https://images.unsplash.com/photo-1561613629-176bbc598143"
+                width="1000"
+                height="0"
+                alt="art 3"
+                className=""
+              />
+            </div>
+            <div className="col-span-2 row-span-2">
+              <Image 
+                src="https://images.unsplash.com/photo-1564296786842-4fc88fb50485"
                 width="1000"
                 height="0"
                 alt="art 3"

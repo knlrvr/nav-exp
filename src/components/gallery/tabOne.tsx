@@ -11,7 +11,7 @@ const TabOne = () => {
     <>
     <div className="max-w-5xl mx-auto px-4">
       <div className="flex flex-col justify-center items-center">
-        <div className="mt-16 mb-12 md:ml-44">
+        <div className="mt-16 md:ml-44">
           <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-4 gap-4">
             <div className="overflow-hidden col-span-2 row-span-2">
               <Image 
