@@ -14,8 +14,10 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sora': ['Sora', 'sans-serif']
-    }
+      'sora': ['Sora', 'sans-serif'],
+      'dancing': ['Dancing Script', 'cursive'],
+      'sedgwick': ['Sedgwick Ave Display', 'cursive']
+    },
   },
   plugins: [],
 }

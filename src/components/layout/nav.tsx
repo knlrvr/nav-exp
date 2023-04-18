@@ -18,7 +18,7 @@ const Nav = () => {
   <div>
       <nav className="bg-black">
         <div className="max-w-5xl mx-auto md:absolute inset-x-0 top-1/3">
-          <div className="flex flex-col p-1">
+          <div className="flex justify-start flex-col p-1">
 
             <div className="flex px-4">
               <div className="hidden md:block">
@@ -26,7 +26,7 @@ const Nav = () => {
                   <Link
                     href="/"
                     onClick={() => setActivePage('home')}
-                    className={`${activePage === 'home' ? 'text-white px-3 py-2 rounded-md bg-[#333]' : 'text-gray-400 px-3 py-2'}`}
+                    className={`${activePage === 'home' ? 'text-white px-3 py-2 rounded-md bg-[#333] transition duration-200' : 'text-gray-400 px-3 py-2'}`}
                   >
                     Home
                   </Link>
@@ -34,7 +34,7 @@ const Nav = () => {
                   <Link
                     href="/about"
                     onClick={() => setActivePage('about')}
-                    className={`${activePage === 'about' ? 'text-white px-3 py-2 rounded-md bg-[#333]' : 'text-gray-400 px-3 py-2'}`}
+                    className={`${activePage === 'about' ? 'text-white px-3 py-2 rounded-md bg-[#333] transition duration-200]' : 'text-gray-400 px-3 py-2'}`}
                   >                  
                     About
                   </Link>
@@ -42,7 +42,7 @@ const Nav = () => {
                   <Link
                     href="/gallery"
                     onClick={() => setActivePage('gallery')}
-                    className={`${activePage === 'gallery' ? 'text-white px-3 py-2 rounded-md bg-[#333]' : 'text-gray-400 px-3 py-2'}`}
+                    className={`${activePage === 'gallery' ? 'text-white px-3 py-2 rounded-md bg-[#333] transition duration-200' : 'text-gray-400 px-3 py-2'}`}
                   >                  
                     Gallery
                   </Link>
@@ -50,7 +50,7 @@ const Nav = () => {
                   <Link
                     href="/contact"
                     onClick={() => setActivePage('contact')}
-                    className={`${activePage === 'contact' ? 'text-white px-3 py-2 rounded-md bg-[#333]' : 'text-gray-400 px-3 py-2'}`}
+                    className={`${activePage === 'contact' ? 'text-white px-3 py-2 rounded-md bg-[#333] transition duration-200' : 'text-gray-400 px-3 py-2'}`}
                   >                  
                     Contact
                   </Link>
