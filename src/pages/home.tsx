@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Home = () => {
   return (
     <>
-      <div className="max-w-5xl mx-auto">
-        <div className="flex h-screen justify-center items-center">
+      <div className="max-w-5xl mx-auto px-4">
+        <div className="flex h-screen justify-center items-center text-center md:text-left">
           <div className="mb-24 md:ml-32">
             <div className="flex flex-col">
               <span className="font-dancing text-5xl">
