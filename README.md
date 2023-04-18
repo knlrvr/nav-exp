@@ -4,7 +4,8 @@
 ![nav-exp-gal](https://user-images.githubusercontent.com/91632194/232611335-8dca294d-0045-4fae-b63f-efabf511b690.png)
 
 ## Description
-An idea for a navbar on md & lg screens. Mobile (sm) nav looks like any other mobile nav. This also features a multi-page gallery you can click through. 
+An idea for a navbar on md & lg screens, experimenting with different looks and feels for pages. Mobile (sm) nav is pretty standard, but could use some reworking for the sake of styling. 
+Site also features a gallery you can click through, updating page visibility via useState. 
 
 ## View 
 [View Live](https://nav-exp.vercel.app/)
