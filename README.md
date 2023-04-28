@@ -22,4 +22,4 @@ Site also features a gallery you can click through, updating page visibility via
 4. Open `http://localhost:3000` in a browser to view the application
 
 ## Notes
-> This is an ongoing project.
+> This is an ongoing project. 
